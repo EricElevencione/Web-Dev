@@ -1,3 +1,12 @@
-<center><h1>My Profile</h1></center>
-
-![039974c419fa770582b6598f7120a6f1](https://github.com/user-attachments/assets/71033f98-49cd-4b53-af65-c35f31feed02)
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Web-Dev//assets//style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
