@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="..//Web-Dev/assets//style.css">
+    <link rel="stylesheet" href="..//Web-Dev//assets//style.css">
     <title>Document</title>
 </head>
 <body>
@@ -14,9 +14,6 @@
             <button class="btn">Shop</button>
             <button class="btn">About Us</button>
             <button class="btn">Contacts</button>
-        </div>
-        <div class="background-img">
-
         </div>
     </div>
     <div id="body"></div>
