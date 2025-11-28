@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+
+<body>
+    <!-- Hero Section -->
+    <div id="hero">
+        <div class="hero-content">
+            <h1>Welcome to Your Dashboard</h1>
+            <p>Start building something amazing today</p>
+            <button class="btn" onclick="scrollToContent()">Get Started</button>
+        </div>
+    </div>
+
+    <!-- Dashboard Content -->
+    <div class="cards-container" id="content">
+        <div class="card">
+            <h3>📊 Analytics</h3>
+            <p>Track your performance and metrics</p>
+        </div>
+        <div class="card">
+            <h3>⚙️ Settings</h3>
+            <p>Customize your experience</p>
+        </div>
+        <div class="card">
+            <h3>👥 Users</h3>
+            <p>Manage user accounts</p>
+        </div>
+        <div class="card">
+            <h3>📁 Projects</h3>
+            <p>View all your projects</p>
+        </div>
+    </div>
+
+    <script src="function.ts"></script>
+    <script>
+        function scrollToContent() {
+            document.getElementById('content').scrollIntoView({
+                behavior: 'smooth'
+            });
+        }
+
+        // Simple TypeScript-style code (will work as JavaScript)
+        console.log('Dashboard loaded successfully!');
+    </script>
+</body>
+
+</html>
